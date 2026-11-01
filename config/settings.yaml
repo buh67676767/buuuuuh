@@ -1,0 +1,11 @@
+# Project configuration
+app:
+  name: "trading-lab"
+  version: "0.1.0"
+  debug: false
+
+backtest:
+  initial_cash: 10000
+  commission_pct: 0.001   # 0.1% per trade, applied on notional value
+  slippage_pct: 0.0005    # 0.05% adverse slippage per trade
+  default_interval: "1d"
